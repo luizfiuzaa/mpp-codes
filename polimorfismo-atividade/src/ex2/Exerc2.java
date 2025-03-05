@@ -1,6 +1,6 @@
 package ex2;
 
-public class Main {
+public class Exerc2 {
     public static void main(String[] args) {
 //      Implementando de Interface Torcedor
         Torcedor torcedor = new Corinthians();

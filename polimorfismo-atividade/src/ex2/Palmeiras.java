@@ -3,6 +3,6 @@ package ex2;
 public class Palmeiras implements Torcedor{
     @Override
     public void torcer() {
-        System.out.println("Vaiii Porcãoooo!!");
+        System.out.println("Porcooo!");
     }
 }

@@ -2,6 +2,6 @@ package ex1;
 
 public class Torcedor {
     public void torcer(){
-        System.out.println("Vaiii timeeeee!!!!");
+        System.out.println("Torcendo para o meu time!");
     }
 }

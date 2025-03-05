@@ -1,6 +1,6 @@
 package ex1;
 
-public class Main {
+public class Exerc1 {
     public static void main(String[] args) {
 //      Extendendo de Classe Torcedor
         Torcedor torcedor = new Torcedor();
