@@ -1,0 +1,30 @@
+@startuml
+
+interface ComponenteInventario {
+    +exibir(): void
+    +getPesoTotal(): double
+}
+
+class Item {
+    -nome: String
+    -peso: double
+    -quantidade: int
+    +Item(nome: String, peso: double, quantidade: int)
+    +exibir(): void
+    +getPesoTotal(): double
+}
+
+class Mochila {
+    -nome: String
+    -componentes: List<ComponenteInventario>
+    +Mochila(nome: String)
+    +adicionar(componente: ComponenteInventario): void
+    +exibir(): void
+    +getPesoTotal(): double
+}
+
+ComponenteInventario <|.. Item
+ComponenteInventario <|.. Mochila
+Mochila "1" o-- "*" ComponenteInventario
+
+@enduml
